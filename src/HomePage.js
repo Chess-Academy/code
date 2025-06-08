@@ -17,7 +17,6 @@ function HomePage() {
     <div className="container my-5" style={{padding:30}}>
   <div className="row align-items-center">
     
-    {/* Left Column – Text + Button */}
     <div className="col-md-6">
       <h1 className="custom-title mb-5">Coaching</h1>
       <p className="mb-5">
@@ -28,11 +27,10 @@ function HomePage() {
       <Link to="/form" className="btn btn-primary mt-3">Apply Here</Link>
     </div>
 
-    {/* Right Column – Image */}
     <div className="col-md-6 text-center">
       <img 
         src={`${process.env.PUBLIC_URL}/chess_board_zoom.PNG`} 
-        alt="Chess Tournament" 
+        alt="Chess coaching" 
         className="img-fluid" 
         style={{ maxHeight: '600px' }}
       />

@@ -45,20 +45,18 @@ function App() {
   <footer className="bg-light text-muted py-5">
   <div className="container-fluid">
     <div className="row text-center align-items-center">
-      {/* Left: Copyright */}
+
       <div className="col-4 text-start" style={{ marginLeft: '75px' }}>
         © 2025 Chess Academy. All rights reserved.
       </div>
 
-      {/* Center: Link */}
       <div className="col-4 d-flex gap-5" >
         <Link to="/" style={{ marginLeft: '100px' }}>Home</Link>
         <Link to="/form" >Coaching</Link>
         <Link to="/form2">Tournaments</Link>
       </div>
 
-        {/* Right: empty or future content */}
-        <div className="col-4"></div>
+        
         </div>
       </div>
     </footer>
