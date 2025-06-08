@@ -31,7 +31,7 @@ function HomePage() {
     {/* Right Column – Image */}
     <div className="col-md-6 text-center">
       <img 
-        src={`${process.env.PUBLIC_URL}/chess_board_zoom.png`} 
+        src={`${process.env.PUBLIC_URL}/chess_board_zoom.PNG`} 
         alt="Chess Tournament" 
         className="img-fluid" 
         style={{ maxHeight: '600px' }}
