@@ -1,0 +1,137 @@
+body{
+    background-color: #ffeceb;
+}
+
+.custom-font{
+  color: #f8f4f2;
+  text-decoration: none;
+  font-family: 'IM Fell English SC';
+  font-size: large;
+  font-weight:bolder;
+}
+.custom-text{
+  color:#1f1f1f;
+  font-family:  'Open Sans', 'Poppins';
+  font-size: large;
+}
+.custom-title{
+  font-family: 'Playfair Display', 'Merriweather';
+  font-weight: bold;
+  color:#1f1f1f;
+}
+.navbar {
+      height: 90px;
+    }
+
+.custom-navbar {
+  background-color: #652c22 !important;
+    }
+
+.button.blue {
+  background-color: #03a9f4;
+  color: #ffffff;
+}
+
+
+.enroll-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #e96954; /* Adjust to your desired color */
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.enroll-button:hover {
+  background-color: #e14e50; /* Slightly darker shade for hover effect */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.react-datepicker__time-list-item--disabled {
+  display: none !important;
+}
+
+.small-input {
+  max-width: 250px; /* or whatever width you want */
+  height: 35px; /* adjust height */
+}
+
+.content-wrap {
+  flex: 1; /* take all available space */
+}
+
+.app-container {
+  min-height: 100vh; /* full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 15px rgba(101, 44, 34, 0.2);
+  max-width: 320px;
+  color: #1f1f1f;
+  font-family: 'Open Sans', 'Poppins', sans-serif;
+}
+
+.review-card p {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.review-card h5 {
+  font-weight: bold;
+  text-align: right;
+  color: #652c22;
+  margin: 0;
+}
+
+.reviews-section {
+  background: rgba(255, 236, 235, 0.85); /* same as body bg, slightly transparent */
+  border: 1px solid #f2d3d1;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 12px rgba(101, 44, 34, 0.08);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  backdrop-filter: blur(3px); /* optional soft blur effect */
+}
+
+
+/* Reviews section background */
+.container.my-5:nth-of-type(3) {  /* Adjust selector if needed */
+  background: linear-gradient(135deg, #f5ebe7, #e96954);
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 20px rgba(230, 105, 84, 0.4);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Keep review cards white to contrast */
+.review-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 15px rgba(101, 44, 34, 0.2);
+  max-width: 320px;
+  color: #1f1f1f;
+  font-family: 'Open Sans', 'Poppins', sans-serif;
+}
+
